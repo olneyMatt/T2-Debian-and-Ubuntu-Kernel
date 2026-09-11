@@ -5,9 +5,9 @@ set -eu -o pipefail
 BUILD_PATH=/tmp/build-kernel
 
 # Patches
-T2_PATCHES_GIT_URL=https://github.com/t2linux/linux-t2-patches.git
-T2_PATCHES_BRANCH_NAME=main
-T2_PATCHES_COMMIT_HASH=HEAD
+T2_PATCHES_GIT_URL=https://github.com/edschofield/linux-t2-patches.git
+T2_PATCHES_BRANCH_NAME=draft/apple-navi-generalized-uclk
+T2_PATCHES_COMMIT_HASH=a4c0276293822712b97d5ea936f68629e6b03b65
 
 rm -rf "${BUILD_PATH}"
 mkdir -p "${BUILD_PATH}"
